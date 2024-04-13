@@ -1,14 +1,4 @@
-#Database spec
-spring:
-  datasource:
-    driverClassName: org.postgresql.Driver
-    url: jdbc:mysql://localhost:5432/reportsdb
-    username: root
-    password: root
-  jpa:
-    database: POSTGRESQL
-    hibernate:
-      ddl-auto: create-drop
+
 
 #Actuator
 management:
