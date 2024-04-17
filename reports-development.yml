@@ -3,8 +3,8 @@ spring:
   datasource:
     driverClassName: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/reportsdb
-    username: reportsdb
-    password: reportsdb
+    username: root
+    password: root
   jpa:
     database: POSTGRESQL
     hibernate:
